@@ -39,7 +39,7 @@ public:
     Vietduino_Button();
     virtual ~Vietduino_Button();
 
-    void begin(int pin, int active);
+    void begin(int pin, int active =1);
 
     // ----- Set runtime parameters -----
 

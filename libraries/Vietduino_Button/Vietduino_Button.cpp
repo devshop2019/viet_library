@@ -22,7 +22,7 @@ Vietduino_Button::~Vietduino_Button(){
 
 }
 
-void Vietduino_Button::begin(int pin, int activeLow)
+void Vietduino_Button::begin(int pin, int activeLow = 1)
 {
     myBit = NK_PIN_TO_BITMASK(pin);          // get send pin's ports and bitmask
     myReg = NK_PIN_TO_BASEREG(pin);         // get pointer to output register
