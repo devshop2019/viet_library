@@ -1,0 +1,18 @@
+# Datatypes (KEYWORD1)
+# Methods and Functions (KEYWORD2)
+# Constants (LITERAL1)
+
+PciManager_Kxn	KEYWORD1
+registerListener	KEYWORD2
+removeListener	KEYWORD2
+
+Debouncer	KEYWORD1
+
+PciListener_Kxn	KEYWORD1
+pciHandleInterrupt	KEYWORD2
+
+PciListenerImp_Kxn	KEYWORD1
+
+PciListenerImp2_Kxn	KEYWORD1
+init	KEYWORD2
+lastVal KEYWORD2
